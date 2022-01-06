@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Simple Notes",
+    "slug": "Simple Notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/main_icon.png",
+    "splash": {
+      "image": "./assets/main_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/main_icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.es.easynotes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
